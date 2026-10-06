@@ -1,0 +1,149 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fafafa;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+
+.custom-navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.custom-navbar .nav-link {
+    color: #555555;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #000000;
+}
+
+
+.hero {
+    padding: 5rem 1rem;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    color: #666666;
+    font-size: 0.95rem;
+}
+
+
+.catalog-section {
+    margin-bottom: 4rem;
+    padding-top: 1rem;
+}
+
+.section-title {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 0.5rem;
+    color: #1a1a1a;
+    letter-spacing: 0.5px;
+}
+
+
+.custom-carousel {
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #ffffff; 
+}
+
+.custom-carousel .carousel-item img {
+    height: 450px;          
+    width: 100%;
+    object-fit: contain;    
+    background-color: #f9f9f9; 
+    padding: 1rem;         
+}
+
+.custom-caption {
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    padding: 1.2rem;
+    color: #1a1a1a;
+    max-width: 320px;
+    margin: 0 auto 1.5rem auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.custom-caption h3 {
+    font-size: 0.95rem;
+    font-weight: 400;
+    margin-bottom: 0.4rem;
+    color: #1a1a1a;
+}
+
+.price {
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #1a1a1a;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #1a1a1a;
+    padding: 1.2rem;
+    border-radius: 50%;
+    background-size: 50% 50%;
+}
+
+.btn {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #444444;
+    color: #ffffff;
+}
+
+.footer {
+    padding: 2.5rem;
+    background-color: #ffffff;
+    border-top: 1px solid #eaeaea;
+    color: #888888;
+    font-size: 0.8rem;
+}
